@@ -1,0 +1,27 @@
+.do {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    transition: 0.1s;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    margin:0.5rem 0;
+    cursor: pointer;
+}
+
+.do:hover {
+    transform: scale(1.05)
+}
+
+.done {
+    display: flex;
+    justify-content: space-between;
+    background-color: white ;
+    opacity: 0.5;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
